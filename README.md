@@ -70,14 +70,12 @@ APN, Username and Password settings are required to use Pelion CM.
 
 ![Compile](/Pictures/Compile.png)
 
- d. Drag and drop the compiled binary to the device.
+ d. The binary is downloaded to your browser's default download location. Drag and drop the compiled binary to the device.
 
+![BoardPicture](/Pictures/Wio3G_board.png)
 ![BinaryCopy](/Pictures/BinaryCopy.png)
  
  e. Ensure your device is connected to power and press the reset button.
-
-![BoardPicture](/Pictures/Wio3G_board.png)
-
 Drag and drop the application binary from mbed-os-example-cellular.bin to your target hardware, which appears as a USB device on your host machine.
 
 Attach a serial console emulator of your choice (for example, PuTTY, Minicom or screen) to your USB device. Set the baudrate to 115200 bit/s, and reset your board by pressing the reset button.
