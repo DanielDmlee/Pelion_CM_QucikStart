@@ -48,10 +48,11 @@ You’re going to use the Mbed Online Compiler to configure and build the exampl
 [Import Cellular example into the Online Compiler](https://ide.mbed.com/compiler/#import:https://github.com/ARMmbed/mbed-os-example-cellular)
       
   c. The Online Compiler Import Program dialog is displayed. Ensure Update all libraries to the latest revision is not selected and click Import.    
-  
-![latestRevision](https://os.mbed.com/static/img/guides/connect_device_to_pelion/compiler-import-dialog.5da7bac0e16e.png)
+
+<img src="https://os.mbed.com/static/img/guides/connect_device_to_pelion/compiler-import-dialog.5da7bac0e16e.png" width="60%" ></img>
 
 ## 3. Putting the application on your device
+
 APN, Username and Password settings are required to use Pelion CM.
 
  a. Open ```mbed_app.json``` and put APN, Username and Password as below
@@ -74,6 +75,8 @@ APN, Username and Password settings are required to use Pelion CM.
 ![BinaryCopy](/Pictures/BinaryCopy.png)
  
  e. Ensure your device is connected to power and press the reset button.
+
+![BoardPicture](/Pictures/Wio3G_board.png)
 
 Drag and drop the application binary from mbed-os-example-cellular.bin to your target hardware, which appears as a USB device on your host machine.
 
