@@ -12,7 +12,7 @@ After you've signed in to the Connectivtivity Management, one of the first thing
   * Satellite devices.
 
 <center> 
-<img src="./Pictures/SimCard.png" width="40%"></img>
+<img src="./Pictures/PelionCM_SimCard.png" width="40%"></img>
 </center> 
 
 ## 1.2 Subscriber Activations
@@ -44,7 +44,7 @@ You can find board that include cellular modem [here](https://os.mbed.com/platfo
   2. [DISCO0-L495AG + UG96](https://os.mbed.com/platforms/ST-Discovery-L496AG/); [The P-L496G-CELL01 STM32 decovery pack](https://www.st.com/en/evaluation-tools/p-l496g-cell01.html)
 
 ## 2.2 Importing target board and the example code
-  a. You need to tell the Online Compiler which device you will be targeting. Click the button below to import the Seeed Wio 3G into the Online Compiler.
+  a. You need to tell the Online Compiler which device you will be targeting. Click the button below to import the `Seeed Wio 3G` into the Online Compiler.
 
 > [Add Seeed Wio 3G to the Online Compiler](https://os.mbed.com/platforms/Seeed-Wio-3G/add/) 
 
