@@ -108,6 +108,10 @@ You should see an output similar to this:
 ```
 
 ## 4. Seeing the device resources in Connectivtivity Management Portal
+<center> 
+<img src="./Pictures/PelionCM-Flow.png"></img>
+</center> 
+
 The following screenshot displays the Active page.
 You access this page by navigating to `Devices > Active`.
 
