@@ -1,11 +1,11 @@
-# Pelion Connectivity Management Qucik Start
+# Pelion Connectivity Management Quick Start
 This guide provides a quick introduction to the Pelion CM(Connectivity Management) platform based on Mbed OS.
 
 # 1. Prepare the SIM card and Activiation
 This section requires a plastic SIM card. Currently, if you would like to set up new tariff agreements, please contact to [here](https://www.arm.com/products/iot/pelion-iot-platform/connectivity-management/talk-with-an-expert)
 
 ## 1.1 Ordering Stock
-After you've signed in to the Connectivtivity Management, one of the first things you may want to do is order stock for your inventory. Depending on the tariff agreements you've signed up for, you can use Connectivtivity Management to order:([how to place an order](https://help.iot-x.com/quickstart/ordering-stock#OrderingStock-HowtoPlaceanOrder))
+After you've signed in to the Connectivtivity Management, one of the first things you may want to do is order stock for your inventory. Depending on the tariff agreements you've signed up for, you can use Connectivtivity Management to order:([How to place an order](https://help.iot-x.com/quickstart/ordering-stock#OrderingStock-HowtoPlaceanOrder))
 
   * SIM cards.
   * eSIM profiles.
@@ -55,14 +55,14 @@ You can find board that include cellular modem [here](https://os.mbed.com/platfo
   c. The Online Compiler Import Program dialog is displayed. Ensure Update all libraries to the latest revision is not selected and click Import.    
 
 <center> 
-<img src="https://os.mbed.com/static/img/guides/connect_device_to_pelion/compiler-import-dialog.5da7bac0e16e.png" width="60%" ></img></div>
+<img src="./Pictures/compiler-import-dialog.png" width="60%" ></img>
 </center>  
 
 # 3. Putting the application on your device
 You are now ready to build the application and flash it to your device over USB.
 
 <center> 
-<img src="./Pictures/AppDownToDevBoard.png" ></img></div>
+<img src="./Pictures/AppDownToDevBoard.png" ></img>
 </center>  
 
  a. APN, Username and Password settings are required to use Pelion CM.
@@ -76,11 +76,11 @@ You are now ready to build the application and flash it to your device over USB.
 
  b. Make sure your device is selected as a compilation target in the top right-hand corner. If your device is not selected, click Select a platform.
 
-![SelectBoard](/Pictures/SelectBoard.png)
+![SelectBoard](./Pictures/SelectBoard.png)
   
  c. To create the application binary, click Compile.
 
-![Compile](/Pictures/Compile.png)
+![Compile](./Pictures/Compile.png)
 
  d. The binary is downloaded to your browser's default download location. Drag and drop the compiled binary to the device.
 
