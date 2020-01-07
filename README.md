@@ -17,6 +17,17 @@ There is two designs, and both are can use Connectivtivity Management.
 ## 1.2 Activations 
 After you've signed in to the Connectivtivity Management, one of the first things you may want to do is activation your plastic SIM cards. Activations can be performed using the platform's Inventory or Activate section.
 
+
+The following screenshot displays the Activate Overview Page and highlights the key actions that can be conducted in this section.
+    ![ActivationPage](https://help.iot-x.com/download/attachments/3899399/Annotated%20Blurred%20Activate%20Home%20Page.png?version=8&modificationDate=1547568643000&api=v2)
+
+  1. Click on the Activate icon to access this page.
+  2. This section allows you to perform activations by uploading a CSV file to the platform.
+  3. This section allows you to perform activations by pasting subscriber information into the text box.
+  4. This section displays the subscribers that have recently been added to your inventory.
+     Click on any of the subscribers in this panel to add it to the list of activations.
+
+
 > More detailed description of each item and each steps, can be found [here](https://help.iot-x.com/userguide/subscriber-activations).
 
 # 2. Importing the example application to the Mbed Online Compiler
@@ -25,7 +36,7 @@ You’re going to use the Mbed Online Compiler to configure and build the exampl
 <center> 
 <img src="https://os.mbed.com/static/img/guides/connect_device_to_pelion/Mbed-Cloud-Connect-Flow-Step1.190c935101a0.svg"></img>
 </center> 
-ß
+
 ## 2.1 Choose a board for each connectivity method
 There are various communication standards, such as WCDMA, CDMA2000, HSPA+, LTE, and so on for each country, and it depends on policy of each country.
 
@@ -91,17 +102,22 @@ You are now ready to build the application and flash it to your device over USB.
   Once your code is up and running, you should see output to the following on your serial terminal such as [CoolTerm](http://freeware.the-meiers.org/), [TeraTerm](https://osdn.net/projects/ttssh2/releases/) and [putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/).
 
 ```
-    mbed-os-example-cellular
-    Establishing connection ......
+  mbed-os-example-cellular
 
-    Connection Established.
-    TCP: connected with echo.mbedcloudtesting.com server
-    TCP: Sent 4 Bytes to echo.mbedcloudtesting.com
-    Received from echo server 4 Bytes
+  Built: Jan  7 2020, 13:32:52
+  Establishing connection
 
+  Connection Established.
+  TCP: connected with echo.mbedcloudtesting.com server
+  TCP: Sent 4 Bytes to echo.mbedcloudtesting.com
+  Received from echo server 4 Bytes
 
-    Success. Exiting
+  Success. Exiting 
 ```
+
+<center> 
+<img src="./Pictures/SerialTerminal.gif"></img>
+</center> 
 
 ## 4. Seeing the device resources in Connectivtivity Management Portal
 <center> 
