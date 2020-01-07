@@ -64,6 +64,8 @@ You can find board that include cellular modem [here](https://os.mbed.com/platfo
 <img src="./Pictures/compiler-import-dialog.png" width="60%" ></img>
 </center>  
 
+
+
 # 3. Putting the application on your device
 In this section, you can compile and binary download onto target board. If you are unfamiliar with how to compile and load code, [Mbed OS Quickstart tutorial](https://os.mbed.com/docs/mbed-os/v5.15/quick-start/index.html) would be help to you.
 
@@ -99,7 +101,9 @@ You are now ready to build the application and flash it to your device over USB.
 
  e. Ensure your device is connected to power and press the reset button.
  
-  Once your code is up and running, you should see output to the following on your serial terminal such as [CoolTerm](http://freeware.the-meiers.org/), [TeraTerm](https://osdn.net/projects/ttssh2/releases/) and [putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/).
+  Once your code is up and running, you should see output to the following on your serial terminal such as [CoolTerm](http://freeware.the-meiers.org/), [TeraTerm](https://osdn.net/projects/ttssh2/releases/) and [putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/). 
+  
+  Set the `baudrate to 115200 bit/s`, and reset your board by pressing the reset button.
 
 ```
   mbed-os-example-cellular
@@ -119,25 +123,41 @@ You are now ready to build the application and flash it to your device over USB.
 <img src="./Pictures/SerialTerminal.gif"></img>
 </center> 
 
+
 ## 4. Seeing the device resources in Connectivtivity Management Portal
+
 <center> 
 <img src="./Pictures/PelionCM-Flow.png"></img>
 </center> 
 
-The following screenshot displays the Active page.
-You access this page by navigating to `Devices > Active`.
 
-Subscribers that can connect to the network and are included as part of the account's invoice.
+The following screenshot displays the Active page.
+You access this page by navigating to `Devices -> Active`.
+
 
 <center> 
 <img src="./Pictures/PelionCM_Devices_Active.png"></img>
 </center> 
 
-You are now connected and can use Pelion Connectivity Management!
+You are now connected internet through cellular and can check connectivity status, usage and so on through the Pelion Connectivity Management!
 
-You have:
+---------------------------------------
+
+**Using the Mbed Online Compiler and Pelion Connectivity Management you have:**
 
 * Prepare the SIM card and Activiation.
 * Imported the example application for your device to the Online Compiler.
+* Made a change to the example application using the Online Compiler.
 * Put the application onto your device.
 * Checked the device resources in the Connectiviy Management Portal.
+
+**Learn more about building IoT devices with Mbed OS and the Pelion IoT Platform:**
+
+* [Browse for Mbed-compatible boards to add to the Online Compiler](https://os.mbed.com/platforms/).
+* [Browse for programs to import to the Online Compiler](https://os.mbed.com/code/).
+* [Review the production workflow](https://os.mbed.com/docs/mbed-os/v5.15/mbed-os-pelion/going-to-production.html).
+* Learn [Cellular API](https://os.mbed.com/docs/mbed-os/v5.15/apis/cellular-api.html) of Mbed OS.
+* [Cellular configuration documentation](https://os.mbed.com/docs/mbed-os/v5.15/reference/configuration-connectivity.html).
+* Explore the Connectivity Management service [APIs](https://help.iot-x.com/api-home) and [Users Guide](https://help.iot-x.com/userguides).
+
+
