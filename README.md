@@ -139,7 +139,7 @@ You access this page by navigating to `Devices -> Active`.
 <img src="./Pictures/PelionCM_Devices_Active.png"></img>
 </center> 
 
-You have now connected the internet through cellular and can check connectivity status, usage, and so on through the Pelion Connectivity Management!
+You have now connected the internet via cellular, and you can check your device's connectivity status, data usage, and so on with the Pelion Connectivity Management!
 
 ---------------------------------------
 
@@ -150,6 +150,20 @@ You have now connected the internet through cellular and can check connectivity 
 * Made a change to the example application using the Online Compiler.
 * Put the application onto your device.
 * Can check the device resources in the Connectivity Management Portal.
+
+
+# 5. What Next?
+* You can follow the [Pelion Device Management IoT Connection Tutorial](https://os.mbed.com/guides/connect-device-to-pelion/) via Connectivity Management.
+   *Don't forget to put Connectivity Management's APN, Username, and Password to the `mbed_app.json` in tutorial's "Step 3: Putting the application on your device"*
+   ```
+            "nsapi.default-cellular-apn": "\"stream.co.uk\"",
+            "nsapi.default-cellular-username": "\"streamip\"",
+            "nsapi.default-cellular-password": "\"streamip\""
+   ```
+
+
+
+
 
 **Learn more about building IoT devices with Mbed OS and the Pelion IoT Platform:**
 
