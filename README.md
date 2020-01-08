@@ -66,7 +66,7 @@ In this section, you can compile and binary download onto the target board. If y
 You are now ready to build the application and flash it to your device over USB.
 
 <center> 
-<img src="./Pictures/PelionCM_FlowStep2_test.svg" ></img>
+<img src="./Pictures/PelionCM_FlowStep2.svg" ></img>
 </center>  
 
  a. Make sure your device is selected as a compilation target in the top right-hand corner. If your device is not selected, click Select a platform.
@@ -124,10 +124,8 @@ You are now ready to build the application and flash it to your device over USB.
 <img src="./Pictures/PelionCM_FlowStep3.svg"></img>
 </center> 
 
-
 The following screenshot displays the Active page.
 You access this page by navigating to `Devices -> Active`.
-
 
 <center> 
 <img src="./Pictures/PelionCM_Devices_Active.png"></img>
