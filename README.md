@@ -6,7 +6,7 @@ In this quick start guide, requires a plastic SIM card. Currently, if you would 
 
 
 ## 1.1 Prepare the SIM card 
-There are two plastic SIM card designs, and both can use Connectivtivity Management. These SIM cards can use 2FF to 4FF sizes. 
+There are two plastic SIM card designs, and both can use Connectivtivity Management. These SIM cards included mini (2FF), micro (3FF) and nano (4FF) format.
 
 <center> 
 <img src="./Pictures/PelionCM_SimCard.png" width="40%"></img>
@@ -22,20 +22,13 @@ After you've signed in to the Connectivtivity Management, one of the first thing
 <img src="./Pictures/SIM_Activation.gif"></img>
 </center>  
 
-  1. Click on the Activate icon to access this page.
-  2. This section allows you to perform activations by uploading a CSV file to the platform.
-  3. This section allows you to perform activations by pasting subscriber information into the text box.
-  4. This section displays the subscribers that have recently been added to your inventory.
-     Click on any of the subscribers in this panel to add it to the list of activations.
-
-
 > A more detailed description of each item and each steps can be found [here](https://help.iot-x.com/userguide/subscriber-activations).
 
 # 2. Importing the example application to the Mbed Online Compiler
 You’re going to use the Mbed Online Compiler to configure and build the example application. The Online Compiler needs to access your Mbed account and to know which device you're using.
 
 <center> 
-<img src="https://os.mbed.com/static/img/guides/connect_device_to_pelion/Mbed-Cloud-Connect-Flow-Step1.190c935101a0.svg"></img>
+<img src="./Pictures/PelionCM_FlowStep1.svg"></img>
 </center> 
 
 ## 2.1 Choose a board for each connectivity method
@@ -73,7 +66,7 @@ In this section, you can compile and binary download onto the target board. If y
 You are now ready to build the application and flash it to your device over USB.
 
 <center> 
-<img src="./Pictures/AppDownToDevBoard.png" ></img>
+<img src="./Pictures/PelionCM_FlowStep2_test.svg" ></img>
 </center>  
 
  a. Make sure your device is selected as a compilation target in the top right-hand corner. If your device is not selected, click Select a platform.
@@ -128,7 +121,7 @@ You are now ready to build the application and flash it to your device over USB.
 # 4. Seeing the device resources in Connectivtivity Management Portal
 
 <center> 
-<img src="./Pictures/PelionCM-Flow.png"></img>
+<img src="./Pictures/PelionCM_FlowStep3.svg"></img>
 </center> 
 
 
@@ -156,7 +149,7 @@ You have now connected the internet via cellular, and you can check your device'
 # 5. What Next?
 * You can follow the [Pelion Device Management IoT Connection Tutorial](https://os.mbed.com/guides/connect-device-to-pelion/) via Connectivity Management.
    
-   
+
    *Don't forget to put Connectivity Management's APN, Username, and Password to the `mbed_app.json` in tutorial's "Step 3: Putting the application on your device"*
    ```
             "lwip.ppp-enabled"                      : true,
