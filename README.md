@@ -6,7 +6,7 @@ In this quick start guide, requires a plastic SIM card. Currently, if you would 
 
 
 ## 1.1 Prepare the SIM card 
-There are two plastic SIM card designs, and both can use Connectivtivity Management.
+There are two plastic SIM card designs, and both can use Connectivtivity Management. These SIM cards can use 2FF to 4FF sizes. 
 
 <center> 
 <img src="./Pictures/PelionCM_SimCard.png" width="40%"></img>
@@ -18,8 +18,9 @@ There are two plastic SIM card designs, and both can use Connectivtivity Managem
 After you've signed in to the Connectivtivity Management, one of the first things you may want to do is activation your plastic SIM cards. Activations can be performed using the platform's Inventory or Activate section.
 
 
-The following screenshot displays the Activate Overview Page and highlights the key actions that can be conducted in this section.
-    ![ActivationPage](https://help.iot-x.com/download/attachments/3899399/Annotated%20Blurred%20Activate%20Home%20Page.png?version=8&modificationDate=1547568643000&api=v2)
+<center> 
+<img src="./Pictures/SIM_Activation.gif"></img>
+</center>  
 
   1. Click on the Activate icon to access this page.
   2. This section allows you to perform activations by uploading a CSV file to the platform.
@@ -154,16 +155,16 @@ You have now connected the internet via cellular, and you can check your device'
 
 # 5. What Next?
 * You can follow the [Pelion Device Management IoT Connection Tutorial](https://os.mbed.com/guides/connect-device-to-pelion/) via Connectivity Management.
+   
+   
    *Don't forget to put Connectivity Management's APN, Username, and Password to the `mbed_app.json` in tutorial's "Step 3: Putting the application on your device"*
    ```
-            "nsapi.default-cellular-apn": "\"stream.co.uk\"",
-            "nsapi.default-cellular-username": "\"streamip\"",
-            "nsapi.default-cellular-password": "\"streamip\""
+            "lwip.ppp-enabled"                      : true,
+            ...
+            "nsapi.default-cellular-apn"            : "\"stream.co.uk\"",
+            "nsapi.default-cellular-username"       : "\"streamip\"",
+            "nsapi.default-cellular-password"       : "\"streamip\""
    ```
-
-
-
-
 
 **Learn more about building IoT devices with Mbed OS and the Pelion IoT Platform:**
 
