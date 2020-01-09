@@ -1,6 +1,12 @@
 # Pelion Connectivity Management Quick Start
 This guide provides a quick introduction to the Pelion Connectivity Management platform based on Mbed OS.
 
+Let's access to [Pelion Connectivity Management](http://stream.iot-x.com/)!
+<center> 
+<img src="./Pictures/PelionCM_Path.gif"></img>
+</center> 
+
+
 # 1. Prepare the SIM card and Activation
 In this quick start guide, requires a plastic SIM card. Currently, if you would like to set up new tariff agreements, please contact [here](https://www.arm.com/products/iot/pelion-iot-platform/connectivity-management/talk-with-an-expert).
 
