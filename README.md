@@ -31,6 +31,8 @@ After you've signed in to the Connectivtivity Management, one of the first thing
 > A more detailed description of each item and each steps can be found [here](https://help.iot-x.com/userguide/subscriber-activations).
 
 # 2. Importing the example application to the Mbed Online Compiler
+In this section, you can compile and binary download onto the target board. If you are unfamiliar with how to compile and load code, [Mbed OS Quickstart tutorial](https://os.mbed.com/docs/mbed-os/v5.15/quick-start/index.html) will help you.
+
 You’re going to use the Mbed Online Compiler to configure and build the example application. The Online Compiler needs to access your Mbed account and to know which device you're using.
 
 <center> 
@@ -44,10 +46,11 @@ It is not necessary to deeply understand each communication protocol, but you sh
 
 This section uses development boards that use 3G communication, which is available in most countries. Cat M1 and NB-IoT are currently available in the United Kingdom only, with roaming services will be added for other countries soon.
 
-You can find a board that includes cellular modem [here](https://os.mbed.com/platforms/?q=&Communication=Cellular). In this session, it is going to use a board that can use 3G communication.
-
   1. [Seed Wio 3G](https://os.mbed.com/platforms/Seeed-Wio-3G/)
   2. [DISCO0-L495AG + UG96](https://os.mbed.com/platforms/ST-Discovery-L496AG/); [The P-L496G-CELL01 STM32 discovery pack](https://www.st.com/en/evaluation-tools/p-l496g-cell01.html)
+
+You can find a board that includes cellular modem [here](https://os.mbed.com/platforms/?q=&Communication=Cellular) or can develop based on Cellular Module + MCU type. You can find a cellular modules source code of each major vendor product [here](https://github.com/ARMmbed/mbed-os/tree/master/features/cellular/framework/targets).
+
 
 ## 2.2 Importing target board and the example code
   a. You need to tell the Online Compiler which device you will be targeting. Click the button below to import the `Seeed Wio 3G` into the Online Compiler.
@@ -67,8 +70,6 @@ You can find a board that includes cellular modem [here](https://os.mbed.com/pla
 
 
 # 3. Putting the application on your device
-In this section, you can compile and binary download onto the target board. If you are unfamiliar with how to compile and load code, [Mbed OS Quickstart tutorial](https://os.mbed.com/docs/mbed-os/v5.15/quick-start/index.html) will help you.
-
 You are now ready to build the application and flash it to your device over USB.
 
 <center> 
