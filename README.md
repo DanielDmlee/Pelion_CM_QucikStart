@@ -87,7 +87,7 @@ You are now ready to build the application and flash it to your device over USB.
             "nsapi.default-cellular-username": "\"streamip\"",
             "nsapi.default-cellular-password": "\"streamip\""
 ```
-> Note that APN, Username, and Password are dependent on the agreement. When you get a 'Welcome email' from Pelion Connectivity Management, there is this information.
+> Note that APN, Username, and Password are dependent on the agreement. You can find it in the 'Welcome Email' of Pelion Connectivity Management.
 
  c. To create the application binary, click Compile.
 
