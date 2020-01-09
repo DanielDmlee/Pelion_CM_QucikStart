@@ -80,14 +80,14 @@ You are now ready to build the application and flash it to your device over USB.
 
 ![SelectBoard](./Pictures/SelectBoard.png)
   
- b. APN, Username, and Password settings are required to use Pelion CM.
- Open `mbed_app.json` and put APN, Username, and Password as below
+ b. You should already have the following APN details to allow it to connect into the network. Open `mbed_app.json` and put APN, Username, and Password as below
 
 ```
             "nsapi.default-cellular-apn": "\"stream.co.uk\"",
             "nsapi.default-cellular-username": "\"streamip\"",
             "nsapi.default-cellular-password": "\"streamip\""
 ```
+> Note that APN, Username, and Password are dependent on the agreement. When you get a 'Welcome email' from Pelion Connectivity Management, there is this information.
 
  c. To create the application binary, click Compile.
 
