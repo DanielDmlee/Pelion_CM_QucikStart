@@ -125,7 +125,7 @@ You are now ready to build the application and flash it to your device over USB.
 </center> 
 
 
-# 4. Seeing the device resources in Connectivtivity Management Portal
+# 4. Verify board connects to Pelion
 
 <center> 
 <img src="./Pictures/PelionCM_FlowStep3.svg"></img>
