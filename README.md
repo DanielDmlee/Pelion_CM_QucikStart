@@ -13,7 +13,7 @@ Let's sign in to [Pelion Connectivity Management](http://stream.iot-x.com/)!
 <img src="./Pictures/PelionCM_Path.gif"></img>
 </center> 
 
-# 1. Activate Your SIM
+# 1. Activate your SIM
 
 To complete the steps in this guide, you must have a Pelion Connectivity Management SIM card.
 
@@ -39,6 +39,8 @@ You can activate your SIM using the Pelion Connectivity Management platform’s 
 </center>  
 
 You can find a more detailed description of the steps in this process [here](https://help.iot-x.com/userguide/subscriber-activations). If you are activating your SIM on a billable tariff, it will start to generate billable events as soon as it is activated by the network operator. In some cases, network operators can take from 24 to 48 hours to process activation requests. We recommend that you allow enough lead time to activate your SIM. 
+
+> When a subscriber activates a SIM card, you must also specify the tariff/rate plan that the SIM will be activated on. In this regard, you cand find a more detailed from [help docs](https://help.iot-x.com/quickstart/performing-activations).
 
 # 2. Importing the example application to the Mbed Online Compiler
 In this section, you can compile and binary download onto the target board. If you are unfamiliar with how to compile and load code, [Mbed OS Quickstart tutorial](https://os.mbed.com/docs/mbed-os/v5.15/quick-start/index.html) will help you.
@@ -160,7 +162,7 @@ Your board is now connected to the interne via the cellular network. You can che
 * Verified that your device is connected to the internet using Pelion Connectivity Management
 
 
-# 5. What Next?
+# 5. What next?
 * You can follow the [Pelion Device Management IoT Connection Tutorial](https://os.mbed.com/guides/connect-device-to-pelion/) via Connectivity Management.
    
 
