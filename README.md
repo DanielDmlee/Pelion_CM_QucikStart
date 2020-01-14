@@ -40,7 +40,7 @@ You can activate your SIM using the Pelion Connectivity Management platform’s 
 
 You can find a more detailed description of the steps in this process [here](https://help.iot-x.com/userguide/subscriber-activations). If you are activating your SIM on a billable tariff, it will start to generate billable events as soon as it is activated by the network operator. In some cases, network operators can take from 24 to 48 hours to process activation requests. We recommend that you allow enough lead time to activate your SIM. 
 
-> When a subscriber activates a SIM card, you must also specify the tariff/rate plan that the SIM will be activated on. In this regard, you cand find a more detailed from [help docs](https://help.iot-x.com/quickstart/performing-activations).
+> When a subscriber activates a SIM card, you must also specify the tariff/rate plan that the SIM will be activated on. In this regard, you can find a more detailed from [help docs](https://help.iot-x.com/quickstart/performing-activations).
 
 # 2. Importing the example application to the Mbed Online Compiler
 In this section, you can compile and binary download onto the target board. If you are unfamiliar with how to compile and load code, [Mbed OS Quickstart tutorial](https://os.mbed.com/docs/mbed-os/v5.15/quick-start/index.html) will help you.
@@ -61,7 +61,7 @@ This section uses development boards that use 3G communication, which is availab
   1. [Seed Wio 3G](https://os.mbed.com/platforms/Seeed-Wio-3G/)
   2. [DISCO0-L495AG + UG96](https://os.mbed.com/platforms/ST-Discovery-L496AG/); [The P-L496G-CELL01 STM32 discovery pack](https://www.st.com/en/evaluation-tools/p-l496g-cell01.html)
 
-You can find a board that includes cellular modem [here](https://os.mbed.com/platforms/?q=&Communication=Cellular) or can develop based on Cellular Module + MCU type. You can find a cellular modules source code of each major vendor product [here](https://github.com/ARMmbed/mbed-os/tree/master/features/cellular/framework/targets).
+You can find a board that includes cellular modem [here](https://os.mbed.com/platforms/?q=&Communication=Cellular) or can develop based on Cellular Module + MCU type. You can find a cellular module source code of each major vendor product [here](https://github.com/ARMmbed/mbed-os/tree/master/features/cellular/framework/targets).
 
 
 ## 2.2 Importing target board and the example code
@@ -92,7 +92,7 @@ You are now ready to build the application and flash it to your device over USB.
 
 ![SelectBoard](./Pictures/SelectBoard.png)
   
- b. You should already have the following APN details to allow it to connect into the network. Open `mbed_app.json` and put APN, Username, and Password as below
+ b. You should already have the following APN details to allow it to connect to the network. Open `mbed_app.json` and put APN, Username, and Password as below
 
 ```
             "nsapi.default-cellular-apn": "\"stream.co.uk\"",
@@ -149,7 +149,7 @@ You can verify that your device is connected to Pelion Connectivity Management u
 <img src="./Pictures/PelionCM_Devices_Active.png"></img>
 </center> 
 
-Your board is now connected to the interne via the cellular network. You can check your board's connectivity status, data usage and more using the Pelion Connectivity Management platform.
+Your board is now connected to the internet via the cellular network. You can check your board's connectivity status, data usage, and more using the Pelion Connectivity Management platform.
 
 ---------------------------------------
 
