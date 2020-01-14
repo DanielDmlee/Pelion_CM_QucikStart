@@ -1,4 +1,4 @@
-# Pelion Connectivity Management Quick Start
+# Pelion Connectivity Management quick start
 This guide provides a quick introduction to the Pelion Connectivity Management Platform and Mbed Online Compiler.
 
 This guide shows you how to:
