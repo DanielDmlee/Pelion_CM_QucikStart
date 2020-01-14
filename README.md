@@ -2,13 +2,14 @@
 This guide provides a quick introduction to the Pelion Connectivity Management Platform and Mbed Online Compiler.
 
 This guide shows you how to:
+
 * Activate a SIM card using Pelion Connectivity Management
 * Import an example application for your device using the Mbed Online Compiler
 * Make a change to an example application using the Mbed Online Compiler
 * Upload an application to your device
 * Verify that your device is connected to the internet using Pelion Connectivity Management
 
-Let's sign in to [Pelion Connectivity Management](http://stream.iot-x.com/)!
+Let's sign in to [Pelion Connectivity Management](http://stream.iot-x.com/) portal!
 <center> 
 <img src="./Pictures/PelionCM_Path.gif"></img>
 </center> 
@@ -18,8 +19,6 @@ Let's sign in to [Pelion Connectivity Management](http://stream.iot-x.com/)!
 To complete the steps in this guide, you must have a Pelion Connectivity Management SIM card.
 
 If you already have a connectivity service agreement with Arm, you can [order SIM cards using the Pelion Connectivity Management Platform](https://help.iot-x.com/quickstart/ordering-stock). If you would like to set up a connectivity service agreement, please [contact us for further information](https://www.arm.com/products/iot/pelion-iot-platform/connectivity-management/talk-with-an-expert).
-
-In this quick start guide, requires a plastic SIM card. Currently, if you would like to set up new tariff agreements, please contact [here](https://www.arm.com/products/iot/pelion-iot-platform/connectivity-management/talk-with-an-expert).
 
 
 ## 1.1 Prepare the SIM 
@@ -43,7 +42,7 @@ You can find a more detailed description of the steps in this process [here](htt
 > When you activates a SIM card, you must also specify the tariff/rate plan that the SIM will be activated on. In this regard, you can find a more detailed from [help docs](https://help.iot-x.com/quickstart/performing-activations).
 
 # 2. Importing the example application to the Mbed Online Compiler
-In this section, you can compile and binary download onto the target board. If you are unfamiliar with how to compile and load code, [Mbed OS Quickstart tutorial](https://os.mbed.com/docs/mbed-os/v5.15/quick-start/index.html) will help you.
+In this section, you will compile and flash the firmware onto the target board. If you are unfamiliar with how to compile and flash the firmware, please follow the [Mbed OS Quickstart tutorial](https://os.mbed.com/docs/mbed-os/v5.15/quick-start/index.html) first.
 
 You’re going to use the Mbed Online Compiler to configure and build the example application. The Online Compiler needs to access your Mbed account and to know which device you're using.
 
@@ -52,16 +51,16 @@ You’re going to use the Mbed Online Compiler to configure and build the exampl
 </center> 
 
 ## 2.1 Choose a board for each connectivity method
-There are various communication standards, such as WCDMA, CDMA2000, HSPA+, LTE, and so on for each country, and it depends on the policy of each country.
+There are various communication standards such as WCDMA, CDMA2000, HSPA+, LTE widely deployed in the world and each country chooses to support one or the other based on each country's specific characteristics and defined policies.
 
-It is not necessary to deeply understand each communication protocol, but you should know if the cellular modem's communication method is appropriate for your country. 
+It is not necessary to deeply understand each communication protocol, but you should verify that the cellular modem's communication method is appropriate for your country. 
 
-This section uses development boards that use 3G communication, which is available in most countries. Cat M1 and NB-IoT are currently available in the United Kingdom only, with roaming services will be added for other countries soon.
+This section uses development boards that use 3G communication, which is available in most countries. Cat M1 and NB-IoT are currently available in the United Kingdom only, with roaming services planned to be rolled out to other countries soon.
 
   1. [Seed Wio 3G](https://os.mbed.com/platforms/Seeed-Wio-3G/)
   2. [DISCO0-L495AG + UG96](https://os.mbed.com/platforms/ST-Discovery-L496AG/); [The P-L496G-CELL01 STM32 discovery pack](https://www.st.com/en/evaluation-tools/p-l496g-cell01.html)
 
-You can find a board that includes cellular modem [here](https://os.mbed.com/platforms/?q=&Communication=Cellular) or can develop based on Cellular Module + MCU type. You can find a cellular module source code of each major vendor product [here](https://github.com/ARMmbed/mbed-os/tree/master/features/cellular/framework/targets).
+You can find a board that includes cellular modem support on the Mbed web site [here](https://os.mbed.com/platforms/?q=&Communication=Cellular) or you can develop based on Cellular Module + MCU type. You can find a cellular modules source code for each major vendor product [here](https://github.com/ARMmbed/mbed-os/tree/master/features/cellular/framework/targets).
 
 
 ## 2.2 Importing target board and the example code
@@ -166,7 +165,8 @@ Your board is now connected to the internet via the cellular network. You can ch
 * You can follow the [Pelion Device Management IoT Connection Tutorial](https://os.mbed.com/guides/connect-device-to-pelion/) via Connectivity Management.
    
 
-   *Don't forget to put Connectivity Management's APN, Username, and Password to the `mbed_app.json` in tutorial's "Step 3: Putting the application on your device"*
+   *Don't forget to put Connectivity Management's APN, Username, and Password to the `mbed_app.json` in tutorial's "Step 3: Putting the application on your device*
+
    ```
             "lwip.ppp-enabled"                      : true,
             ...
