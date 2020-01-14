@@ -1,18 +1,29 @@
 # Pelion Connectivity Management Quick Start
-This guide provides a quick introduction to the Pelion Connectivity Management platform based on Mbed OS.
+This guide provides a quick introduction to the Pelion Connectivity Management Platform and Mbed Online Compiler.
 
-Let's access to [Pelion Connectivity Management](http://stream.iot-x.com/)!
+This guide shows you how to:
+* Activate a SIM card using Pelion Connectivity Management
+* Import an example application for your device using the Mbed Online Compiler
+* Make a change to an example application using the Mbed Online Compiler
+* Upload an application to your device
+* Verify that your device is connected to the internet using Pelion Connectivity Management
+
+Let's sign in to [Pelion Connectivity Management](http://stream.iot-x.com/)!
 <center> 
 <img src="./Pictures/PelionCM_Path.gif"></img>
 </center> 
 
+# 1. Activate Your SIM
 
-# 1. Prepare the SIM card and Activation
+To complete the steps in this guide, you must have a Pelion Connectivity Management SIM card.
+
+If you already have a connectivity service agreement with Arm, you can [order SIM cards using the Pelion Connectivity Management Platform](https://help.iot-x.com/quickstart/ordering-stock). If you would like to set up a connectivity service agreement, please [contact us for further information](https://www.arm.com/products/iot/pelion-iot-platform/connectivity-management/talk-with-an-expert).
+
 In this quick start guide, requires a plastic SIM card. Currently, if you would like to set up new tariff agreements, please contact [here](https://www.arm.com/products/iot/pelion-iot-platform/connectivity-management/talk-with-an-expert).
 
 
-## 1.1 Prepare the SIM card 
-There are two plastic SIM card designs, and both can use Connectivtivity Management. These SIM cards included mini (2FF), micro (3FF) and nano (4FF) format.
+## 1.1 Prepare the SIM 
+Pelion Connectivity Management SIM cards are available in two designs, and a variety of form factors, including mini (2FF), micro (3FF), and nano (4FF). Before ordering your SIM card, make sure the SIM’s form factor is compatible with your device.
 
 <center> 
 <img src="./Pictures/PelionCM_SimCard.png" width="40%"></img>
@@ -20,15 +31,14 @@ There are two plastic SIM card designs, and both can use Connectivtivity Managem
 <img src="./Pictures/PelionCM_SimCard2.png" width="40%"></img>
 </center> 
 
-## 1.2 Activations 
-After you've signed in to the Connectivtivity Management, one of the first things you may want to do is activation your plastic SIM cards. Activations can be performed using the platform's Inventory or Activate section.
-
+## 1.2 Activation
+You can activate your SIM using the Pelion Connectivity Management platform’s Inventory or Activate feature. 
 
 <center> 
 <img src="./Pictures/SIM_Activation.gif"></img>
 </center>  
 
-> A more detailed description of each item and each steps can be found [here](https://help.iot-x.com/userguide/subscriber-activations).
+You can find a more detailed description of the steps in this process [here](https://help.iot-x.com/userguide/subscriber-activations). If you are activating your SIM on a billable tariff, it will start to generate billable events as soon as it is activated by the network operator. In some cases, network operators can take from 24 to 48 hours to process activation requests. We recommend that you allow enough lead time to activate your SIM. 
 
 # 2. Importing the example application to the Mbed Online Compiler
 In this section, you can compile and binary download onto the target board. If you are unfamiliar with how to compile and load code, [Mbed OS Quickstart tutorial](https://os.mbed.com/docs/mbed-os/v5.15/quick-start/index.html) will help you.
@@ -120,35 +130,34 @@ You are now ready to build the application and flash it to your device over USB.
   Success. Exiting 
 ```
 
+
 <center> 
 <img src="./Pictures/SerialTerminal.gif"></img>
 </center> 
 
-
-# 4. Verify board connects to Pelion
+# 4. Verify your board connects to Pelion Connectivity Management
 
 <center> 
 <img src="./Pictures/PelionCM_FlowStep3.svg"></img>
 </center> 
 
-The following screenshot displays the Active page.
-You access this page by navigating to `Devices -> Active`.
+You can verify that your device is connected to Pelion Connectivity Management using the Active feature. You access this page by navigating to `Devices -> Active`.
 
 <center> 
 <img src="./Pictures/PelionCM_Devices_Active.png"></img>
 </center> 
 
-You have now connected the internet via cellular, and you can check your device's connectivity status, data usage, and so on with the Pelion Connectivity Management!
+Your board is now connected to the interne via the cellular network. You can check your board's connectivity status, data usage and more using the Pelion Connectivity Management platform.
 
 ---------------------------------------
 
 **Using the Mbed Online Compiler and Pelion Connectivity Management you have:**
 
-* Prepare the SIM card and Activation.
-* Import the example application for your device to the Online Compiler.
-* Made a change to the example application using the Online Compiler.
-* Put the application onto your device.
-* Can check the device resources in the Connectivity Management Portal.
+* Activated a SIM card using Pelion Connectivity Management
+* Imported an example application for your device using the Mbed Online Compiler
+* Made a change to an example application using the Mbed Online Compiler
+* Uploaded an application to your device
+* Verified that your device is connected to the internet using Pelion Connectivity Management
 
 
 # 5. What Next?
@@ -163,7 +172,7 @@ You have now connected the internet via cellular, and you can check your device'
             "nsapi.default-cellular-username"       : "\"streamip\"",
             "nsapi.default-cellular-password"       : "\"streamip\""
    ```
-
+----
 **Learn more about building IoT devices with Mbed OS and the Pelion IoT Platform:**
 
 * [Browse for Mbed-compatible boards to add to the Online Compiler](https://os.mbed.com/platforms/).
@@ -172,5 +181,5 @@ You have now connected the internet via cellular, and you can check your device'
 * Learn [Cellular API](https://os.mbed.com/docs/mbed-os/v5.15/apis/cellular-api.html) of Mbed OS.
 * [Cellular configuration documentation](https://os.mbed.com/docs/mbed-os/v5.15/reference/configuration-connectivity.html).
 * Explore the Connectivity Management service [APIs](https://help.iot-x.com/api-home) and [Users Guide](https://help.iot-x.com/userguides).
-
+* Explore Mbed and Pelion Device Management support [forum](https://forums.mbed.com/)
 
