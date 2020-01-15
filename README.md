@@ -57,7 +57,7 @@ It is not necessary to deeply understand each communication protocol, but you sh
 
 This section uses development boards that use 3G communication, which is available in most countries. Cat M1 and NB-IoT are currently available in the United Kingdom only, with roaming services planned to be rolled out to other countries soon.
 
-  1. [Seed Wio 3G](https://os.mbed.com/platforms/Seeed-Wio-3G/)
+  1. [Seeed Wio 3G](https://os.mbed.com/platforms/Seeed-Wio-3G/)
   2. [DISCO0-L495AG + UG96](https://os.mbed.com/platforms/ST-Discovery-L496AG/); [The P-L496G-CELL01 STM32 discovery pack](https://www.st.com/en/evaluation-tools/p-l496g-cell01.html)
 
 You can find a board that includes cellular modem support on the Mbed web site [here](https://os.mbed.com/platforms/?q=&Communication=Cellular) or you can develop based on Cellular Module + MCU type. You can find a cellular modules source code for each major vendor product [here](https://github.com/ARMmbed/mbed-os/tree/master/features/cellular/framework/targets).
