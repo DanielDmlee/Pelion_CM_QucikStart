@@ -1,4 +1,4 @@
-# Pelion Connectivity Management quick start
+# Pelion Connectivity Management Quick Start
 This guide provides a quick introduction to the Pelion Connectivity Management Platform and Mbed Online Compiler.
 
 This guide shows you how to:
@@ -14,7 +14,7 @@ Let's sign in to [Pelion Connectivity Management](http://stream.iot-x.com/) port
 <img src="./Pictures/PelionCM_Path.gif"></img>
 </center> 
 
-# 1. Activate your SIM
+# 1. Activate Your SIM
 
 To complete the steps in this guide, you must have a Pelion Connectivity Management SIM card.
 
@@ -41,7 +41,7 @@ You can find a more detailed description of the steps in this process [here](htt
 
 > When you activates a SIM card, you must also specify the tariff/rate plan that the SIM will be activated on. In this regard, you can find a more detailed from [help docs](https://help.iot-x.com/quickstart/performing-activations).
 
-# 2. Importing the example application to the Mbed Online Compiler
+# 2. Importing the Example Application to the Mbed Online Compiler
 In this section, you will compile and flash the firmware onto the target board. If you are unfamiliar with how to compile and flash the firmware, please follow the [Mbed OS Quickstart tutorial](https://os.mbed.com/docs/mbed-os/v5.15/quick-start/index.html) first.
 
 You’re going to use the Mbed Online Compiler to configure and build the example application. The Online Compiler needs to access your Mbed account and to know which device you're using.
@@ -50,7 +50,7 @@ You’re going to use the Mbed Online Compiler to configure and build the exampl
 <img src="./Pictures/PelionCM_FlowStep1.svg"></img>
 </center> 
 
-## 2.1 Choose a board for each connectivity method
+## 2.1 Choose a Board for Each Connectivity Method
 There are various communication standards such as WCDMA, CDMA2000, HSPA+, LTE widely deployed in the world and each country chooses to support one or the other based on each country's specific characteristics and defined policies.
 
 It is not necessary to deeply understand each communication protocol, but you should verify that the cellular modem's communication method is appropriate for your country. 
@@ -63,7 +63,7 @@ This section uses development boards that use 3G communication, which is availab
 You can find a board that includes cellular modem support on the Mbed web site [here](https://os.mbed.com/platforms/?q=&Communication=Cellular) or you can develop based on Cellular Module + MCU type. You can find a cellular modules source code for each major vendor product [here](https://github.com/ARMmbed/mbed-os/tree/master/features/cellular/framework/targets).
 
 
-## 2.2 Importing target board and the example code
+## 2.2 Importing Target Board and the Example Code
   a. You need to tell the Online Compiler which device you will be targeting. Click the button below to import the `Seeed Wio 3G` into the Online Compiler.
 
 > [Add Seeed Wio 3G to the Online Compiler](https://os.mbed.com/platforms/Seeed-Wio-3G/add/) 
@@ -80,7 +80,7 @@ You can find a board that includes cellular modem support on the Mbed web site [
 
 
 
-# 3. Putting the application on your device
+# 3. Putting the Application on Your Device
 You are now ready to build the application and flash it to your device over USB.
 
 <center> 
@@ -136,7 +136,7 @@ You are now ready to build the application and flash it to your device over USB.
 <img src="./Pictures/SerialTerminal.gif"></img>
 </center> 
 
-# 4. Verify your board connects to Pelion Connectivity Management
+# 4. Verify Your Board Connects to Pelion Connectivity Management
 
 <center> 
 <img src="./Pictures/PelionCM_FlowStep3.svg"></img>
@@ -161,7 +161,7 @@ Your board is now connected to the internet via the cellular network. You can ch
 * Verified that your device is connected to the internet using Pelion Connectivity Management
 
 
-# 5. What next?
+# 5. What Next?
 * You can follow the [Pelion Device Management IoT Connection Tutorial](https://os.mbed.com/guides/connect-device-to-pelion/) via Connectivity Management.
    
 
